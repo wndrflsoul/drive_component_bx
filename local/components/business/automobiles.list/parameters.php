@@ -22,9 +22,7 @@ while ($arCar = $rsCars->Fetch()) {
 
 // Добавляем параметр списка автомобилей в .parameters.php
 $arComponentParameters = array(
-    // ...
     'PARAMETERS' => array(
-        // ...
         'CAR_ID' => array(
             'PARENT' => 'BASE',
             'NAME' => 'Доступные автомобили:',
@@ -33,8 +31,6 @@ $arComponentParameters = array(
             'ADDITIONAL_VALUES' => 'Y',
             'REFRESH' => 'Y',
         ),
-        // ...
     ),
-    // ...
 );
 ?>
